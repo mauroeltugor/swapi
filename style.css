@@ -1,0 +1,21 @@
+*{
+    background-color:aqua;
+}
+#cardf{
+    text-align: center;
+    border-style: solid;
+    width: 30%;
+    padding-top: 1%;
+}
+
+#cardm{
+    text-align: center;
+    border-style: solid;
+    width: 30%;
+    padding-top: 1%;
+}
+
+.image{
+    width: 10%;
+    height: 5%;
+}
