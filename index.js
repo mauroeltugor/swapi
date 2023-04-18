@@ -11,27 +11,32 @@ const people = async () => {
             height: character.height,
             eye_color: character.eye_color
         }));
-        console.log(array);
+        // console.log(array);
         return array
     } catch (err) {
         console.log(err);
     }
 }
 
-people();
 
-const card = () => {
 
-    const card = document.getElementById('card')
-    const template = document.getElementById('template').content
-    const clone = template.cloneNode(true);
-    const fragment = document.createDocumentFragment();
-    
-
-    
-    clone.getElementById('name').innerHTML = `<h1>${array[0].name}</h1>`
-
-    fragment.appendChild(clone)
-    card.appendChild(fragment)
-
+const workOnCharacters = async () =>{
+    const getCharacters = await people()
 }
+
+
+
+
+// const card = () => {
+
+//     const card = document.getElementById('card')
+//     const template = document.getElementById('template').content
+//     const clone = template.cloneNode(true);
+//     const fragment = document.createDocumentFragment();
+    
+//     clone.getElementById('name').innerHTML = `<h1>${array[0].name}</h1>`
+
+//     fragment.appendChild(clone)
+//     card.appendChild(fragment)
+
+// }

@@ -1,30 +1,31 @@
 *{
-    background: rgb(122,101,101);
-    background: linear-gradient(90deg, rgba(122,101,101,1) 0%, rgba(83,62,5,1) 57%, rgba(0,0,0,1) 100%);
+    padding: 0;
 }
 
 body{
+    background-image: url(https://www.muycomputer.com/wp-content/uploads/2019/05/HubbleLegacyField.jpg);
+    margin: 0;
+    padding: 0;
+}
+#template{
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    align-items:center;
+    justify-content:center;
 }
 
-#cardf{
-    text-align: center;
-    border-style: solid;
-    width: 30%;
-    padding-top: 1%;
-    background-color: rgb(169, 177, 177);
-}
 
 #cardm{
     text-align: center;
     border-style: solid;
-    width: 30%;
+    width: 23%;
     padding-top: 1%;
+    background-color: rgb(120 135 143 / 39%);
+    margin-top: 6%;   
+    border-color: #88a59b;
 }
 
 .image{
-    width: 10%;
-    height: 5%;
+    width: 32%;
+    height: 30%;
+    border-radius: 29%;
 }
