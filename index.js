@@ -11,7 +11,8 @@ const people = async () => {
             height: character.height,
             eye_color: character.eye_color
         }));
-        return array;
+        console.log(array);
+        return array
     } catch (err) {
         console.log(err);
     }
@@ -19,7 +20,18 @@ const people = async () => {
 
 people();
 
-const data = async () => {
-    const h1 = document.getElementById('name');
+const card = () => {
+
+    const card = document.getElementById('card')
+    const template = document.getElementById('template').content
+    const clone = template.cloneNode(true);
+    const fragment = document.createDocumentFragment();
+    
+
+    
+    clone.getElementById('name').innerHTML = `<h1>${array[0].name}</h1>`
+
+    fragment.appendChild(clone)
+    card.appendChild(fragment)
 
 }
