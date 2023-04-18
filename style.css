@@ -1,11 +1,20 @@
 *{
-    background-color:aqua;
+    background: rgb(122,101,101);
+    background: linear-gradient(90deg, rgba(122,101,101,1) 0%, rgba(83,62,5,1) 57%, rgba(0,0,0,1) 100%);
 }
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 #cardf{
     text-align: center;
     border-style: solid;
     width: 30%;
     padding-top: 1%;
+    background-color: rgb(169, 177, 177);
 }
 
 #cardm{

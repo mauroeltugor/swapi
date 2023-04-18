@@ -11,10 +11,15 @@ const people = async () => {
             height: character.height,
             eye_color: character.eye_color
         }));
-        console.log(array);
+        return array;
     } catch (err) {
         console.log(err);
     }
 }
 
-people();   
+people();
+
+const data = async () => {
+    const h1 = document.getElementById('name');
+
+}
