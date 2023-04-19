@@ -13,11 +13,24 @@ body{
     justify-content:center;
 }
 
-
 #card{
+    display: flex;
+    flex-wrap: nowrap;    
+    flex-direction: row;
+    overflow-x:auto;
+    overflow:inherit;
+}
+
+.item {
+    flex: 1 1 auto;
+    width: 200px;
+  }
+
+.card{
     text-align: center;
     border-style: solid;
     width: 23%;
+    height: 25%;
     padding-top: 1%;
     background-color: rgb(120 135 143 / 39%);
     margin-top: 6%;   
