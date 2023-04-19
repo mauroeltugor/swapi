@@ -14,7 +14,7 @@ body{
 }
 
 
-#cardm{
+#card{
     text-align: center;
     border-style: solid;
     width: 23%;
@@ -24,7 +24,7 @@ body{
     border-color: #88a59b;
 }
 
-.image{
+#image{
     width: 32%;
     height: 30%;
     border-radius: 29%;

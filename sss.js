@@ -14,6 +14,7 @@ const getCharacters = async () => {
       birthYear: character.birth_year,
       skinColor: character.skin_color,
       eyeColor: character.eye_color,
+
     }));
     return characterData;
   } catch (error) {
