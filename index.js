@@ -22,6 +22,7 @@ const people = async () => {
     }
 }
 
+
 const workOnCharacters = async () =>{
     const getCharacters = await people()
     const fragment = document.createDocumentFragment();
@@ -33,7 +34,7 @@ const workOnCharacters = async () =>{
         const birthYear = card.getElementById('year');
         const skinColor = card.getElementById('skin');
         const eyeColor = card.getElementById('eye');
-        const img = card.getElementById('image');
+        const img = card.getElementById('image'); 
         if(character.gender === 'male'){
             img.src = 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/qui-gon-jinn-1527515078.jpg?crop=1xw:1xh;center,top&resize=480:*';
         }else if(character.gender === 'female'){
