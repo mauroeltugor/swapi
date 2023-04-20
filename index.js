@@ -24,6 +24,7 @@ const people = async () => {
 
 
 const workOnCharacters = async () =>{
+    try{
     const getCharacters = await people()
     const fragment = document.createDocumentFragment();
     getCharacters.slice(0, 10).forEach((character) => {
@@ -52,6 +53,9 @@ const workOnCharacters = async () =>{
         fragment.appendChild(card)
     });
     cardSection.appendChild(fragment);
+    }catch (err){
+        console.log(err);
+    }
 }
 
 workOnCharacters();

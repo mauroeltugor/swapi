@@ -26,6 +26,7 @@ body{
 .item {
     flex: 1 1 auto;
     width: 200px;
+    font-size: 100%;
   }
 
 .card{
@@ -48,12 +49,11 @@ header{
 }
 
 #logo{
-    width: 25%;
-    height: 25%;
+    width: 15%; /*delete heigth and change 25 to 15*/
 }
 
 #image{
     width: 40%;
-    height: 18%;
+    height: 30%; /*change 18 to 30*/
     border-radius: 35%;
 }
