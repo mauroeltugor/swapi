@@ -35,9 +35,9 @@ const workOnCharacters = async () =>{
         const eyeColor = card.getElementById('eye');
         const img = card.getElementById('image');
         if(character.gender === 'male'){
-            img.src = './images/male1.jpg';
+            img.src = 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/qui-gon-jinn-1527515078.jpg?crop=1xw:1xh;center,top&resize=480:*';
         }else if(character.gender === 'female'){
-            img.src = './images/female1.webp';
+            img.src = 'https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/cinefilia/star-wars-mujeres-personajes-femeninos/leia-organa/123062234-1-esl-ES/Leia-Organa.jpg';
         }else{
             img.src = 'https://static.vecteezy.com/system/resources/previews/005/217/482/non_2x/the-question-mark-in-a-circle-black-icon-vector.jpg';
         }

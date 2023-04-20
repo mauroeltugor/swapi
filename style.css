@@ -15,10 +15,12 @@ body{
 
 #card{
     display: flex;
-    flex-wrap: nowrap;    
+    flex-wrap: nowrap;
     flex-direction: row;
     overflow-x:auto;
     overflow:inherit;
+    gap: 1%;
+    align-items: center;
 }
 
 .item {
@@ -29,16 +31,29 @@ body{
 .card{
     text-align: center;
     border-style: solid;
-    width: 23%;
-    height: 25%;
+    width: 45%;
+    height: 41vh;
     padding-top: 1%;
     background-color: rgb(120 135 143 / 39%);
     margin-top: 6%;   
     border-color: #88a59b;
+    margin-top: 20%;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    position: fixed;
+}
+
+#logo{
+    width: 25%;
+    height: 25%;
 }
 
 #image{
-    width: 32%;
-    height: 30%;
-    border-radius: 29%;
+    width: 40%;
+    height: 18%;
+    border-radius: 35%;
 }
